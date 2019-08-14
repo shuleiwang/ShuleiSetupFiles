@@ -66,6 +66,8 @@
     "Plugin 'fholgado/minibufexpl.vim'
     Plugin 'suan/vim-instant-markdown'
     Plugin 'majutsushi/tagbar'
+    Plugin 'ctrlpvim/ctrlp.vim'
+    Plugin 'dyng/ctrlsf.vim'
     Plugin 'kshenoy/vim-signature'
     Plugin 'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'
     Plugin 'vim-scripts/indexer.tar.gz'
@@ -281,6 +283,10 @@
     nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
     " 跳转至定义，只能是#include或已打开的文件
     nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
+    
+    "** ctrlsf setup **"
+    " 使用 ctrlsf.vim 插件在工程内全局查找光标所在关键字，设置快捷键。快捷键速记法：search in project
+    nnoremap <Leader>sp :CtrlSF<CR>
 
 "   }
 
@@ -306,6 +312,10 @@
     " buffer 切换快捷键
     " nmap <C-Tab> :MBEbn<cr> 
     " nmap <C-S-Tab> :MBEbp<cr>
+    
+    "** CtrlP setup **"
+    let g:ctrlp_map = '<c-p>'
+    let g:ctrlp_cmd = 'CtrlP'
 
 "   }
     
