@@ -63,7 +63,7 @@
     Plugin 'Lokaltog/vim-powerline'
     Plugin 'scrooloose/nerdcommenter'
     Plugin 'scrooloose/nerdtree'
-    "Plugin 'fholgado/minibufexpl.vim'
+    Plugin 'fholgado/minibufexpl.vim'
     Plugin 'suan/vim-instant-markdown'
     Plugin 'majutsushi/tagbar'
     Plugin 'ctrlpvim/ctrlp.vim'
