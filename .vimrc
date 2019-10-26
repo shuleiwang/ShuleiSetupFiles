@@ -63,7 +63,7 @@
     Plugin 'Lokaltog/vim-powerline'
     Plugin 'scrooloose/nerdcommenter'
     Plugin 'scrooloose/nerdtree'
-    Plugin 'fholgado/minibufexpl.vim'
+    "Plugin 'fholgado/minibufexpl.vim'
     Plugin 'suan/vim-instant-markdown'
     Plugin 'majutsushi/tagbar'
     Plugin 'ctrlpvim/ctrlp.vim'
@@ -73,8 +73,8 @@
     Plugin 'vim-scripts/indexer.tar.gz'
     Plugin 'vim-scripts/DfrankUtil'
     Plugin 'vim-scripts/vimprj'
-    Plugin 'vimwiki/vimwiki'
-    Plugin 'itchyny/calendar.vim'
+    "Plugin 'vimwiki/vimwiki'
+    "Plugin 'itchyny/calendar.vim'
 
     " vundle 插件列表结束
     call vundle#end()
