@@ -332,7 +332,7 @@
     let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
     "** Calendar setup **"
-    map <F8> :Calendar<cr>
+    "map <F8> :Calendar<cr>
   
 "   }
 
